@@ -1,0 +1,42 @@
+body {
+  background-repeat: no-repeat;
+  background-image: url("loginpage.png");
+  background-position: center top;
+  height: 100%;
+}
+
+#login{
+  position: relative;
+  top:175px;
+  display: block;
+  width: 100%;
+  text-align: center;
+
+}
+
+#first{
+  position: relative;
+  top: 172px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#second{
+  position: relative;
+  top:182px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#center{
+  align-self: center;
+}
+
+#EnterKey{
+  position: relative;
+  top: 210px;
+  left: 53%;
+  width: auto;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>css Practice</title>
+    <link rel="stylesheet" type="text/css" href="csspractice.css">
+  </head>
+  <body>
+
+
+
+
+    <div id="login"><h3>login!!!</h3></div>
+    <div id="first">
+        ID : <input type="text">
+    </div>
+    <div id="second">
+      PW : <input type="password" >
+    </div>
+    <div>
+      <input id="EnterKey" type="image" src="EnterKey.png">
+    </div>
+<!--
+    <script>
+
+      document.getElementById("EnterKey").onclick=mouseOver();
+      function mouseOver(){
+        document.getElementById("EnterKey").style.width="100%";
+      }
+
+    </script>
+
+    document.getElementById("EnterKey").onmouseover
+  -->
+  <script>
+
+    document.getElementById("EnterKey").addEventListener("mouseover", mouseOver);
+    document.getElementById("EnterKey").addEventListener("mouseleave", mouseLeave);
+    document.getElementById("EnterKey").addEventListener("mousedown", mouseDown);
+    document.getElementById("EnterKey").addEventListener("mouseup", mouseUp);
+    function mouseOver(){
+      document.getElementById("EnterKey").style.width="5%";
+      document.getElementById("EnterKey").style.left="54%";
+    }
+    function mouseLeave(){
+      document.getElementById("EnterKey").style.width="auto";
+    }
+    function mouseDown(){
+      document.getElementById("EnterKey").style.width="4%";
+    }
+    function mouseUp(){
+      document.getElementById("EnterKey").style.width="auto";
+    }
+  </script>
+  </body>
+</html>
